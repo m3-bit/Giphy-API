@@ -1,0 +1,28 @@
+html, body {
+    height:100%;
+} 
+
+body {
+    background-color: black;
+    background-image: url('https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif');
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.ui-autocomplete {
+    position: absolute;
+    background-color: white;
+    list-style: none;
+    padding: 5px;
+}
+
+.ui-helper-hidden-accessible { 
+    display: none; 
+}
+
+.ui-menu-item .ui-menu-item-wrapper .ui-state-active {
+    background: goldenrod ;
+    font-weight: bold;
+    color: white;
+} 
