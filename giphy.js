@@ -6,7 +6,6 @@ let apiAutoComplete = apiRoot + "search/tags?";
 let apiKey = "&api_key=dyuNHmjsWFfX3L0yAEegS8XQJHFRDXuv";
 let limitParam = "&limit=1";
 let queryParam = "&q=";
-let stringParam = "&s=";
 
 function search() {
     let search = document.getElementById('search');
